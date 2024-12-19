@@ -6,6 +6,7 @@ export interface IProject {
   tag: string;
   desc: string;
   img: string;
+  url: string;
 }
 export default function ProjectCard({ data }: { data: IProject }) {
   return (
